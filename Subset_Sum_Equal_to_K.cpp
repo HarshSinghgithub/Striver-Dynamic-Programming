@@ -2,8 +2,6 @@ class Solution {
 public:
 
     int solve(int index, int tar, vector<int> &nums, vector<vector<int>> &dp){
-        if(index < 0) return 0;
-        
         if(tar == 0) return 1;
 
         if(index == 0) return nums[index] == tar;
