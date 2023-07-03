@@ -33,7 +33,7 @@ public:
         int oldColor = image[sr][sc];
         vector<vector<int>> vis(n, vector<int> (m, 0));
         
-        dfs(sr, sc, oldColor, newColor, image, vis);
+        dfs(sr, sc, oldColor, newColor, image, vis); 
         
         return image;
     }
