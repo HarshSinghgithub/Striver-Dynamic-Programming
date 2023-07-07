@@ -32,4 +32,4 @@ vector<vector<int>> verticalTraversal(TreeNode* root) {
             ans.push_back(vec);
         }
         return ans;
-    }
+    } 
